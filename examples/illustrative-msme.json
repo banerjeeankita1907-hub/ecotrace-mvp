@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Illustrative neighbourhood cafe",
+    "industry": "food service"
+  },
+  "reportingPeriod": {
+    "label": "Illustrative three-month period",
+    "months": 3
+  },
+  "electricity": {
+    "kwh": 900,
+    "factor": {
+      "value": 0.7,
+      "low": 0.6,
+      "high": 0.8,
+      "unit": "kgCO2e/kWh",
+      "source": {
+        "name": "Illustrative factor — not an official dataset",
+        "reference": "example-only; replace with a documented regional grid factor",
+        "version": "example-v1",
+        "retrievedAt": "2026-11-14"
+      }
+    }
+  },
+  "commuting": [
+    {
+      "mode": "public transport",
+      "passengerKm": 1200,
+      "factor": {
+        "value": 0.05,
+        "low": 0.04,
+        "high": 0.06,
+        "unit": "kgCO2e/passenger-km",
+        "source": {
+          "name": "Illustrative factor — not an official dataset",
+          "reference": "example-only; replace with a documented mode-specific factor",
+          "version": "example-v1",
+          "retrievedAt": "2026-11-14"
+        }
+      }
+    }
+  ]
+}
