@@ -1,0 +1,13 @@
+{
+  "name": "ecotrace-mvp",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Auditable activity-based carbon footprint estimates for small businesses",
+  "scripts": {
+    "test": "node --test",
+    "report": "node scripts/calculate-report.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
